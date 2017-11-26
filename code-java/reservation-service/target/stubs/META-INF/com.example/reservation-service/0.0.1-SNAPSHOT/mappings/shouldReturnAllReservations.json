@@ -1,0 +1,16 @@
+{
+  "id" : "23f319c3-1fac-4472-8f8c-a58011a19c9b",
+  "request" : {
+    "url" : "/reservations",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"id\":1,\"reservationName\":\"Jane\"},{\"id\":2,\"reservationName\":\"Joe\"}]",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "23f319c3-1fac-4472-8f8c-a58011a19c9b"
+}
